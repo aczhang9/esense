@@ -30,5 +30,5 @@
 - Obtained sensitivity of 91.2% for breath event detection and a mean absolute error of 1.018 breaths per minute ofr breathing rate estimation
 
 General notes:
-Non-verbal communication sensing for social skills training (job interview, public speaking, language learning, clinical settings)
+Non-verbal communication sensing for social skills training (job interview, public speaking, language learning, clinical settings). 
 Input data is mainly video (tracking eye movements, facial expressions) and audio but can also be physiological signals and other sensors [1](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6798633), [2](https://dl.acm.org/doi/pdf/10.1145/3134679)
