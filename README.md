@@ -51,6 +51,16 @@
 - Data collected from health subjects conducting the following activities: general conversation, reading a script, normal breathing, prolonged vowel sound, reading a script after exercise
 - Obtained sensitivity of 91.2% for breath event detection and a mean absolute error of 1.018 breaths per minute ofr breathing rate estimation
 
+12. [EarGest: Hand Gesture Recognition with Earables](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9918622)
+- Built a hand-gesture recognition system using received signal strength of BLE signals from eSense earbuds.
+- System can classify hand motion speed (slow or fast) and detect seven different gestures.
+- System is inactive until a two-part gesture is performed, then system is activated.
+- RSS features of interest are rising edges, falling edges, and pauses.
+- System leverages wavelet denoising to process collected windows of RSS samples and extract RSS features.
+- BLE sampled at 25Hz
+- System works up to 4m distance between earbuds and host device
+
+
 General notes:   
 Non-verbal communication sensing for social skills training (job interview, public speaking, language learning, clinical settings)   
 Input data is mainly video (tracking eye movements, facial expressions) and audio but can also be physiological signals and other sensors [1](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=6798633), [2](https://dl.acm.org/doi/pdf/10.1145/3134679)
