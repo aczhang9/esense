@@ -56,9 +56,11 @@
 - System can classify hand motion speed (slow or fast) and detect seven different gestures.
 - System is inactive until a two-part gesture is performed, then system is activated.
 - RSS features of interest are rising edges, falling edges, and pauses.
-- System leverages wavelet denoising to process collected windows of RSS samples and extract RSS features.
+- System leverages discrete wavelet denoising to process collected windows of RSS samples and extract RSS features.
+  - Discrete wavelet transform provides information about the frequency content of the original signal while retaining some information about when in the original signal particular frequencies occur. "So, for example, you can pick up a spike as a high-frequency signal and gain information about that frequency, but you can also localise the time of occurrence of that spike. In Fourier analysis by contrast, you will detect that there is a high-frequency component in the record, but you have no idea when it occurs." [quoted from here](https://www.st-andrews.ac.uk/~wjh/dataview/tutorials/sonogram.html)
 - BLE sampled at 25Hz
 - System works up to 4m distance between earbuds and host device
+- Gesture classifier matches received RSS feature (primitives) to templates of each gesture class.
 
 
 General notes:   
